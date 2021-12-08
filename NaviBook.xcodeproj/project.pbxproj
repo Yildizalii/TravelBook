@@ -14,6 +14,7 @@
 		41826872275E1E990056498C /* NaviBook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 41826870275E1E990056498C /* NaviBook.xcdatamodeld */; };
 		41826874275E1E9B0056498C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41826873275E1E9B0056498C /* Assets.xcassets */; };
 		41826877275E1E9B0056498C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41826875275E1E9B0056498C /* LaunchScreen.storyboard */; };
+		4182687F275EA3AF0056498C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4182687E275EA3AF0056498C /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		41826873275E1E9B0056498C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41826876275E1E9B0056498C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41826878275E1E9B0056498C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4182687E275EA3AF0056498C /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				41826867275E1E990056498C /* AppDelegate.swift */,
 				41826869275E1E990056498C /* SceneDelegate.swift */,
 				4182686B275E1E990056498C /* ViewController.swift */,
+				4182687E275EA3AF0056498C /* SecondViewController.swift */,
 				4182686D275E1E990056498C /* Main.storyboard */,
 				41826873275E1E9B0056498C /* Assets.xcassets */,
 				41826875275E1E9B0056498C /* LaunchScreen.storyboard */,
@@ -143,6 +146,7 @@
 				4182686C275E1E990056498C /* ViewController.swift in Sources */,
 				41826868275E1E990056498C /* AppDelegate.swift in Sources */,
 				41826872275E1E990056498C /* NaviBook.xcdatamodeld in Sources */,
+				4182687F275EA3AF0056498C /* SecondViewController.swift in Sources */,
 				4182686A275E1E990056498C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
