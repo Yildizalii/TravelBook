@@ -11,14 +11,14 @@
 		4182686A275E1E990056498C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41826869275E1E990056498C /* SceneDelegate.swift */; };
 		4182686C275E1E990056498C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4182686B275E1E990056498C /* ViewController.swift */; };
 		4182686F275E1E990056498C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4182686D275E1E990056498C /* Main.storyboard */; };
-		41826872275E1E990056498C /* NaviBook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 41826870275E1E990056498C /* NaviBook.xcdatamodeld */; };
+		41826872275E1E990056498C /* TravelBook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 41826870275E1E990056498C /* TravelBook.xcdatamodeld */; };
 		41826874275E1E9B0056498C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41826873275E1E9B0056498C /* Assets.xcassets */; };
 		41826877275E1E9B0056498C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41826875275E1E9B0056498C /* LaunchScreen.storyboard */; };
 		4182687F275EA3AF0056498C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4182687E275EA3AF0056498C /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		41826864275E1E990056498C /* NaviBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NaviBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41826864275E1E990056498C /* TravelBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41826867275E1E990056498C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41826869275E1E990056498C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4182686B275E1E990056498C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		4182685B275E1E990056498C = {
 			isa = PBXGroup;
 			children = (
-				41826866275E1E990056498C /* NaviBook */,
+				41826866275E1E990056498C /* TravelBook */,
 				41826865275E1E990056498C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,12 +52,12 @@
 		41826865275E1E990056498C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				41826864275E1E990056498C /* NaviBook.app */,
+				41826864275E1E990056498C /* TravelBook.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		41826866275E1E990056498C /* NaviBook */ = {
+		41826866275E1E990056498C /* TravelBook */ = {
 			isa = PBXGroup;
 			children = (
 				41826867275E1E990056498C /* AppDelegate.swift */,
@@ -68,17 +68,17 @@
 				41826873275E1E9B0056498C /* Assets.xcassets */,
 				41826875275E1E9B0056498C /* LaunchScreen.storyboard */,
 				41826878275E1E9B0056498C /* Info.plist */,
-				41826870275E1E990056498C /* NaviBook.xcdatamodeld */,
+				41826870275E1E990056498C /* TravelBook.xcdatamodeld */,
 			);
-			path = NaviBook;
+			path = TravelBook;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		41826863275E1E990056498C /* NaviBook */ = {
+		41826863275E1E990056498C /* TravelBook */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4182687B275E1E9B0056498C /* Build configuration list for PBXNativeTarget "NaviBook" */;
+			buildConfigurationList = 4182687B275E1E9B0056498C /* Build configuration list for PBXNativeTarget "TravelBook" */;
 			buildPhases = (
 				41826860275E1E990056498C /* Sources */,
 				41826861275E1E990056498C /* Frameworks */,
@@ -88,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = NaviBook;
+			name = TravelBook;
 			productName = NaviBook;
-			productReference = 41826864275E1E990056498C /* NaviBook.app */;
+			productReference = 41826864275E1E990056498C /* TravelBook.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -107,7 +107,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4182685F275E1E990056498C /* Build configuration list for PBXProject "NaviBook" */;
+			buildConfigurationList = 4182685F275E1E990056498C /* Build configuration list for PBXProject "TravelBook" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -120,7 +120,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				41826863275E1E990056498C /* NaviBook */,
+				41826863275E1E990056498C /* TravelBook */,
 			);
 		};
 /* End PBXProject section */
@@ -145,7 +145,7 @@
 			files = (
 				4182686C275E1E990056498C /* ViewController.swift in Sources */,
 				41826868275E1E990056498C /* AppDelegate.swift in Sources */,
-				41826872275E1E990056498C /* NaviBook.xcdatamodeld in Sources */,
+				41826872275E1E990056498C /* TravelBook.xcdatamodeld in Sources */,
 				4182687F275EA3AF0056498C /* SecondViewController.swift in Sources */,
 				4182686A275E1E990056498C /* SceneDelegate.swift in Sources */,
 			);
@@ -296,12 +296,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JGHQB59FYZ;
-				INFOPLIST_FILE = NaviBook/Info.plist;
+				INFOPLIST_FILE = TravelBook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.aliyildiz.NaviBook;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aliyildiz.TravelBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -315,12 +315,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JGHQB59FYZ;
-				INFOPLIST_FILE = NaviBook/Info.plist;
+				INFOPLIST_FILE = TravelBook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.aliyildiz.NaviBook;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aliyildiz.TravelBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -330,7 +330,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4182685F275E1E990056498C /* Build configuration list for PBXProject "NaviBook" */ = {
+		4182685F275E1E990056498C /* Build configuration list for PBXProject "TravelBook" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				41826879275E1E9B0056498C /* Debug */,
@@ -339,7 +339,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4182687B275E1E9B0056498C /* Build configuration list for PBXNativeTarget "NaviBook" */ = {
+		4182687B275E1E9B0056498C /* Build configuration list for PBXNativeTarget "TravelBook" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4182687C275E1E9B0056498C /* Debug */,
@@ -351,13 +351,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		41826870275E1E990056498C /* NaviBook.xcdatamodeld */ = {
+		41826870275E1E990056498C /* TravelBook.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
 				41826871275E1E990056498C /* NaviBook.xcdatamodel */,
 			);
 			currentVersion = 41826871275E1E990056498C /* NaviBook.xcdatamodel */;
-			path = NaviBook.xcdatamodeld;
+			path = TravelBook.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

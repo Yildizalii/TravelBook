@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "41826863275E1E990056498C"
-               BuildableName = "NaviBook.app"
-               BlueprintName = "NaviBook"
-               ReferencedContainer = "container:NaviBook.xcodeproj">
+               BuildableName = "TravelBook.app"
+               BlueprintName = "TravelBook"
+               ReferencedContainer = "container:TravelBook.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "41826863275E1E990056498C"
-            BuildableName = "NaviBook.app"
-            BlueprintName = "NaviBook"
-            ReferencedContainer = "container:NaviBook.xcodeproj">
+            BuildableName = "TravelBook.app"
+            BlueprintName = "TravelBook"
+            ReferencedContainer = "container:TravelBook.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "41826863275E1E990056498C"
-            BuildableName = "NaviBook.app"
-            BlueprintName = "NaviBook"
-            ReferencedContainer = "container:NaviBook.xcodeproj">
+            BuildableName = "TravelBook.app"
+            BlueprintName = "TravelBook"
+            ReferencedContainer = "container:TravelBook.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

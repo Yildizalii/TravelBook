@@ -29,17 +29,12 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
 
         getData()
         
-        
-        
-        
-        
-        
+    
     }
     override func viewWillAppear(_ animated: Bool) {
         NotificationCenter.default.addObserver(self, selector: #selector(getData), name: NSNotification.Name("newPlaces"), object: nil)
     }
-    
-    
+
     func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == .delete {
             
@@ -49,9 +44,6 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
             let idString = idArray[indexPath.row].uuidString
             fetchRequest.predicate = NSPredicate(format: "id = %@", idString)
             fetchRequest.returnsObjectsAsFaults = false
-            
-            
-            
             do {
                 
                 let results = try context.fetch(fetchRequest)
@@ -108,16 +100,9 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
                     tableView.reloadData()
                 }
             }
-            
-    
         }catch {
             print("error")
-            
-            
         }
-        
-        
-        
     }
     
     
